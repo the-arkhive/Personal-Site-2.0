@@ -23,7 +23,8 @@ body {
 
     background-color: #457177;
     color: #fff;
-    min-width: 760px;
+    /*min-width: 760px;*/
+    width: auto;
 }
 
 a {
