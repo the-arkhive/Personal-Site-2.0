@@ -23,7 +23,7 @@ body {
 
     background-color: #457177;
     color: #fff;
-    max-width: 760px;
+    min-width: 760px;
 }
 
 a {
