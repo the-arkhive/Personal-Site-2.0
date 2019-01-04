@@ -1,0 +1,453 @@
+@charset "utf-8";
+
+
+/* I am still elarning php and more complex css so I honestly don't know what these do and they are from Daring Fireball */
+@import "static/css/font.php";
+@import "static/css/unicode.css";
+
+html {
+	height: 100%;
+	margin-bottom: 1px;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.8em;
+
+    position: relative;
+    margin-top: 0;
+    padding: 0;
+
+    background-color: #457177;
+    color: #fff;
+    min-width: 760px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    padding: 3px 2px 2px 2px;
+    
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+
+	border-color: rgb(255, 255, 255);
+	border-width: 0 0 1px 0;
+	border-style: none none solid none;
+}
+
+a:hover {
+    text-decoration: none;
+    padding: 3px 4px 2px 4px;
+
+	color: rgb(49, 61, 78);
+	background-color: rgb(255, 114, 32);
+    border-color: rgb(255, 114, 32);
+    border-radius: 4px;
+}
+
+a:visited {
+    text-decoration: none;
+    padding: 3px 0px 2px 0px;
+
+    color: rgb(255, 255, 255);
+    background-color: inherit;
+
+	border-color: rgb(255, 114, 32);
+	border-width: 0 0 1px 0;
+	border-style: none none dotted none;
+}
+
+a:visited:hover {
+    color: rgb(49, 61, 78);
+}
+
+/* from Daring Fireball I'm not sure exactly how this works yet...*/
+a em {
+	padding-bottom: 2px; /* Hack for WebKit; otherwise the underscore padding is 0 */
+}
+/* -- */
+
+p {
+    margin: 0 0 1.6em 0;
+    padding: 0;
+}
+
+/*-----------------------------IDs-----------------------------*/
+#page-content {
+    text-align: left;
+
+    
+    width: 720px;
+    height: auto;
+
+    border: 0;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    
+}
+
+#logo {
+    text-align: left;
+    line-height: 0px;
+
+    width: 512px;
+    height: auto;
+
+    background-color: transparent;
+
+    border: 0px dotted #ffffff;
+    padding: 0;
+    margin: 59px 12px 69px 41px;
+}
+
+#logo p {
+    font-size: 1.1em;
+    letter-spacing: 2px;
+
+    padding: 0;
+    margin: 1.5em 0 0em 0em;
+}
+
+#logo strong {
+	font-size: 1.1em;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#logo img {
+	border-width: 0px;
+}
+
+#logo img:hover {
+    background-color: rgb(255, 114, 32);
+}
+
+#logo a {
+	border-width: 0px;
+}
+
+#logo a:hover {
+	background-color: transparent;
+}
+
+/* NAVBAR */
+
+#navbar {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: right;
+    line-height: 1em;
+    font-variant: small-caps;
+
+    position: fixed;
+    top: 219px;
+    width: 8%;
+    height: auto;
+
+    margin: 0 0 0 0;
+    border: 0px dotted rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    padding: 3.3em 0 0 0;
+
+    background-color: transparent;
+    color: #eee;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 1.5em 1em 0 1em;
+    border: 0px dotted rgb(255, 255, 255);
+}
+
+#navbar li {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    list-style: none;
+	
+	margin: 0;
+    padding: 0;
+}
+
+#navbar a {
+    text-decoration: none;
+
+    padding: 4px 1px 4px 1px;
+
+	color: #eee;
+}
+#navbar a:link {
+    border: 0;
+
+	color: #eee;
+}
+#navbar a:visited {
+    border: 0;
+
+	color: #eee;
+}
+#navbar a:hover {
+    color: rgb(49, 61, 78);
+    padding: 3px 4px 3px 4px;
+    border-radius: 4px;
+}
+
+#navbar ul {
+    margin: 0 0 5em 0;
+}
+
+ul {
+    list-style-type: square;
+}
+
+#navbar li {
+    list-style: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+/* NAVBAR END */
+
+#content {
+    padding: 1.5em 0 20em 5em;
+    top: 10px;
+    border: 0px dotted gray;
+    position: relative;
+    margin-left: 12em;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: auto;
+    border: 0px dotted rgb(255, 255, 255);
+}
+
+#content h1 {
+    margin-bottom: 1em;
+    margin-top: 0em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+
+/*-----------------------------END-----------------------------*/
+
+/*------------------------CUSTOM CLASSES------------------------*/
+
+.entry {
+    color: #eee;
+    border-width: 0 0 0px 0;
+    border-style: solid;
+    border-color: #666;
+    padding-bottom: 0em;
+}
+
+.entry dt {
+    margin-bottom: 1em;
+    margin-top: 2em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    letter-spacing: .15em;
+    text-transform: small-caps;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+.entry dd {
+    margin: auto auto 5em 0em;
+    font-size: 1.2em;
+    letter-spacing: .07em;
+}
+
+.entry img {
+    max-height: 400px;
+    height: auto;
+    width: auto;
+}
+
+.separator {
+    font-size: 1em;
+    color: rgb(194, 194, 194);
+    margin-top: -.75em;
+    margin-bottom: 1.5em;
+    font-weight: normal;
+}
+
+h2.separator {
+    margin: 0em 0 0 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+dl + h2.separator {
+    font-size: 0.9em;
+    margin: 2em 0 2em 0;
+}
+
+/*-----------------------------END-----------------------------*/
+
+blockquote {
+	font-size: 1em;
+	margin: 2em 2em 2em 1em;
+    padding: 0 .75em 0 1.25em;
+    
+	border-left: 1px solid rgb(255, 255, 255);
+    background: transparent;
+
+    vertical-align: baseline;
+}
+
+dt {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    font-weight: normal;
+    margin: 0 0 .4em 0;
+    letter-spacing: normal;
+    text-transform: none;
+    font-variant: small-caps;
+}
+
+dd {
+    margin: auto auto 2.5em 2em;
+}
+
+dd p {
+    margin: 0 0 1em 0;
+}
+
+dd h4 {
+    margin-bottom: .75em;
+    margin-top: 1.75em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    letter-spacing: .1em;
+    font-variant: small-caps;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+img {
+	margin-top: 5px;
+	max-width: 100%;
+}
+
+strong {
+	font-weight: normal;
+	font-size: .91em;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+
+dl + h2.separator {
+    font-size: 0.9em;
+    margin: 8em 0 4em 0;
+}
+
+/* FROM https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(255, 255, 255, 0); /* Set a background color */
+    color: rgb(255, 255, 255); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 2px 3px 5px 3px; /* Some padding */
+    border-radius: 2px; /* Rounded corners */
+    font-size: 24px; /* Increase font size */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+}
+  
+#myBtn:hover {
+    background-color: rgb(71, 71, 71); /* Add a dark-grey background on hover */
+}
+
+
+#footer {
+	text-align: center;
+    background-color: transparent;
+    position: relative;
+    width: 720px;
+    bottom: 5px;
+    margin: 3em;
+    border: 0px dotted rgb(255, 255, 255);
+}
+
+#footer p {
+    font-size: 1em;
+    color: rgb(194, 194, 194);
+    font-weight: normal;
+    text-align: center;
+    letter-spacing: .1em;
+}
+
+
+/* to end from Daring Fireball */
+/* I'm not completely sure how these work, but I see potential use cases for them so I have them here for now until I change them for my own implimentation*/
+pre {
+	font-family: Menlo, Monaco, monospace;
+	line-height: 1.45em;
+	color: #eee;
+	background-color: inherit;
+	margin: 2em 0 2.5em 0;
+	padding: 5px 0 5px 10px;
+	border-width: 1px 0 1px 0;
+	border-color: #6b6b6b;
+	border-style: dashed;
+}
+
+code {
+	font-family: Menlo, Monaco, monospace;
+	font-size: 1em; /* 1.09em for Courier */
+}
+
+ul {
+	list-style-type: square;
+}
+
+hr {
+	margin: 2em 1em 4em 0;
+	text-align: center;
+	border-color: #777;
+	border-width: 0;
+	border-style: dotted;
+}
+
+
+legend {
+	color: #aaa;
+	background-color: inherit;
+	font-weight: normal;
+	font-size: .91em;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+}
+
+input, select  {
+	font-size: 1em;
+}
+input[type="text"], input[type="password"]   { background-color: #ddd; }
+/*
+input[type="submit"] { background-color: #ccc;  border-width: 1px; }
+*/
+select { background-color: #ddd; }
+
+audio {
+	height: 3em;
+	width:  100%;
+}

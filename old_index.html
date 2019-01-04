@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+            <link href="https://fonts.googleapis.com/css?family=Abel|Cuprum|M+PLUS+Rounded+1c|Maven+Pro|Source+Code+Pro" rel="stylesheet"> 
+        <style>
+            body {background-color: rgb(63, 63, 63); font-family:'M PLUS Rounded 1c', sans-serif;}
+
+            .title {background-color: rgb(255, 255, 255);  padding: 25px; margin: 10px; text-align: center;}
+                .title h1       {color: rgb(63, 63, 63);
+                                 font-size:42px;}
+                .title h2       {color: rgb(63, 63, 63);
+                                 font-size:30px;}
+                .title p {
+                    color: rgb(63, 63, 63);
+                    font-size:22px;
+                    margin-left: 15%;
+                    margin-right: 15%;
+                }
+
+            .resume  {text-align: center;}
+                .resume h1      {color: white; font-size:38px;}
+                .resume h2      {color: white; font-size:26px}
+                .resume h3      {color: white; font-size:22px}
+                .resume h4      {color: white; font-size:18px;}
+                .resume p       {color: white; font-size:18px; margin-left: 15%; margin-right: 15%;}
+            
+            .fixed {height: 500px;}
+
+            #portfolio {margin-left: 20%; margin-right: 20%;}
+                #portfolio h1   {color: white; font-size:38px; text-align: center;}
+                #portfolio h2   {color: white; font-size:26px; text-align: center; margin-bottom: 0px}
+                #portfolio h3   {color: white; font-size:22px; text-align: center; margin-top: 0px;}
+                #portfolio h4   {color: white; font-size:18px; text-align: center;}
+                #portfolio p    {color: white; font-size:18px; text-align: left;}
+                #portfolio img  {display: block; margin-left: auto; margin-right: auto; width: 500px; max-width: 500; height: auto; margin-bottom: 60px}
+                #portfolio .fixed{height: 500px; width: auto}
+                #portfolio #port_entry{margin-top: 50px; margin-bottom: 50px;}
+                #portfolio #framed{border: 5px solid white;}
+                #portfolio  hr  {border: none; height: 1px;
+                /* Set the hr color */
+                background-color: rgb(165, 165, 165); /* Modern Browsers */}
+          
+
+            hr  {border: none;
+                height: 3px;
+                /* Set the hr color */
+                background-color: rgb(165, 165, 165); /* Modern Browsers */}
+
+            a:visited {color: rgb(255, 133, 34);}
+            a:link {color:rgb(0, 136, 170)}
+
+        </style>
+        <title>Thomas Williams</title>
+    </head>
+
+    <body>
+
+        <hr>
+
+        <div class="title">
+            <h1>Thomas Lodge Williams</h1>
+        </div>
+
+        <hr>
+
+        <div class="resume";>
+            <h1>Resume</h1>
+                <p>Please click below to download a copy of my resume</p>
+                <form style="margin-bottom: 40px" action="https://raw.githubusercontent.com/high-tech-hobo/portfolio/35d7230ae544cd2e58f298df0b705085ca15f41b/resume.pdf">
+                    <input type="submit" value="RESUME"/>
+                </form>
+        </div>
+
+        <hr>        
+
+        <div id="portfolio";>
+            <h1>Portfolio</h1>
+                <div id="port_entry";>
+                    <h2>Character Commission</h2>
+                        <h3>Summer, 2018</h3>
+                        <p>This is actually part of a series of characters for a Dungeons and Dragons campaign. Still a working draft, all digital on Wacom Cintiq.</p>
+                        <img class=fixed src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/commissions/char_1.png"/> </p>
+                </div>
+
+                <hr>
+
+                <div id="port_entry";>
+                    <h2>Paradise Made</h2>
+                        <h3>Spring, 2018</h3>
+                        <p>I was inspired by John Milton’s <u>Paradise Lost</u> to make a comic book with no words that explores the morality, utility, and vanity of the characters in the book and, by extension, all of humanity. The image displayed below is a PNG and thus subject to compression, for the raw image in full resolution with very little compression please click <a href="https://github.com/high-tech-hobo/portfolio/blob/master/pictures/paradise_made/milton_comic_cover.tif?raw=true">HERE</a>.</p>
+
+                        <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/paradise_made/milton_comic_cover.png"/>
+
+                        <p>Since developing this cover image I have since done some test screen printing of it while I work on the inside of the book. The greyscale halftone black ink layer is below. This looks very similar, but if you open the raw files and zoom in you can see that the one below is made up of different sized black dots. The density of those dots when you zoom back out results in all the different shades of grey needed to create the image.</p>
+                        <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/paradise_made/milton_burn_layer.png"/>
+                        <br>
+                </div>
+
+                <hr>
+
+                <div id="port_entry";>
+                    <h2>Internet Friend</h2>
+                        <h3>Spring, 2018</h3>
+                        <p>I used an <a href="https://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/"> LSTM</a> text generating neural network to teach a computer English using only the messages I had sent prior to downloading the data from, and then deleting, my Facebook account. Needless to say, the computer did not learn very intelligible English. It did however, learn phonemes, which are sounds with meaning, almost like syllables, but even shorter, like the phonetic breakdown of words. I plan on revisiting this to make it a little more interactive, like being able to talk to myself, but only the version of me that was on Facebook.</p>
+                        <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/other/internet_friend.jpg"/>
+                </div>
+
+                <hr>
+
+                <div id="port_entry";>
+                    <h2><a href="https://www.instagram.com/now_in_billions_of_colors/">now_in_billions_of_colors</a></h2>
+                        <h3>Spring, 2018</h3>
+                        <p>An internet-based project currently taking the form of performance art, this piece is a collaboration with <a href="http://clarkaddis.com/">Clark Addis</a>. We are posting a color a day, iterating through the RGB color spectrum. Long term goals are to automate the process and start a longer version that could theoretically display 16,777,216 which would run for almost 46,000 years.</p>
+                        <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/other/billions_of_colors.png"/>
+                </div>
+
+                <hr>
+
+                <div id="port_entry";>
+                    <h2>Portrait of an Artist as a Young Engineer</h2>
+                    <h3>Fall, 2017</h3>
+                        <h4>Installation</h4>
+                            <p>This project started with a romanticized vision of my return to art after spending 2.5 years in engineering. After some initial critiques and chatting with visiting artists, I settled on this idea of taking that core symbol of my favorite childhood toy, the 2x4 LEGO brick, and experimenting with the construction of it. I had seen <a href="https://www.youtube.com/watch?v=P2O7vyKnYfo">this</a> video at some point, and had been playing with silicone, so I decided I wanted to make a “flesh brick” &mdash; a LEGO fetus if you will. A soft, fleshy, mildly revolting, and definitely infantile brick would endeavor to evoke a sense of the famous coming of age novel by Jame Joyce from which the piece's name is taken. To go along with that, I picked up screen printing to produce books of “Impossible Instructions” to be used with this brick of life. They are blank. I like to let people draw their own conclusions, so I shall leave it there with a description.</p>
+                            <img  src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/capstone/capstone_final.jpg"/>
+
+                        <h4>Pedestal</h4>
+                            <p>This is the image used to burn the screen I used to ink directly onto the pedestal of the exhibit. I had just started the process of printing and hand cutting out the letters when I realized it was going to be a tediously slow undertaking. So, I took a risk with my freshly sanded and painted pedestal and tried screen printing right onto the side, and it worked out great.</p>
+
+                            <img id="framed" src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/capstone/pedestal_front.png"/>
+
+                        <h4>Book Covers</h4>
+                            <p>These are the black screen layer only, so where there is black in the image is where ink will be let through the screen.</p>
+                            <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/capstone/cover_1_final.png"/> <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/capstone/cover_2_final.png"/> <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/capstone/cover_3_final.png"/> <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/capstone/cover_4_final.png"/>
+
+                        <h4>Version 2</h4>
+                            <p>Final casting in some SmoothOn Dragon Skin Medium, which is the leading silicone used for ballistics testing, meant to simulate human muscle and flesh.</p>
+                            <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/capstone/version_2.jpg"/>
+
+                        <h4>Version 1</h4>
+                            <p>First attempt at taking a silicone cast out of a silicone mold &mdash; lots of mold release and SmoothOn Rebound 25.</p>
+                            <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/capstone/version_1.jpg"/>
+
+                        <h4>Master Sculpt</h4>
+                            <p>The original clay sculpt of the LEGO brick. There is a wooden form in the core to save on some clay, and the final dimensions are 30cm x 15cm x 15cm.</p>
+                            <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/capstone/master_sculpt.jpg"/>
+                </div>
+
+                <hr>
+
+                <div id="port_entry">
+                    <h2>Self Portrain w/ Mirror</h2>
+                    <h3>Spring, 2017</h3>
+                        <p>This was the first self portrait I had ever attempted. While half is unfinished, I got to focus more on detail work, as demonstrated by the reflection of the paper in my eye.</p>
+                        <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/drawing_1/self_portrait.jpg"/>
+                </div>
+
+                <hr>
+
+                <div id="port_entry">
+                    <h2>Portrait from Memory</h2>
+                    <h3>Spring, 2017</h3>
+                        <p>Drew my brother from memory. Working to achieve realism, the presence of the glass is alluded to with the distortion of the eye.</p>
+                        <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/drawing_1/portrait_from_memory.jpg"/>
+                </div>
+
+                <hr>
+                
+                <div id="port_entry">
+                    <h2>Field Notes</h2>
+                    <h3>Spring 2017</h3>
+                        <p>This piece, depicting a raccoon taking field notes, takes a journey into the surreal. By incorporating DaVinci’s Vitruvian Man and other artifacts of humanity, it questions the definition of a “higher” life form.</p>
+                        <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/drawing_1/final_project.jpg"/> <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/drawing_1/final_project_rough.jpg"/>
+                </div>
+
+                <hr>
+
+                <div id="port_entry">
+                    <h2>White on White Still Life</h2>
+                    <h3>Winter, 2016</h3>
+                        <p>Early work on greyscale drawing. The mug and its shadow I'm particularly fond of. This work helped provide an underlying understanding of graphite drawing, which has carried over into much of the other work I have done since, particularly black ink printing.</p>
+                        <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/drawing_1/still_life.jpg"/>
+                </div>
+
+                <hr>
+
+                <div id="port_entry">
+                    <h2>Bread Head</h2>
+                        <h3>Fall, 2016</h3>
+                            <p>This sticker was designed for the <i><a href= "http://wjrh.org/vbb/"> Various Breads and Butters</a></i> podcast hosted by two professors at Lafayette College. They had long had a sticker of a person sitting in a chair, but the head had been replaced with a loaf of bread. We referred to this character as "The Bread Head". I took this shameless poaching of the Grateful Dead, and developed the parody to its fullest extent.</p>
+                            <img id="framed" src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/other/bread_head.jpg"/>
+                </div>
+                
+                <hr>
+
+                <div id="port_entry">
+                    <h2>Day Blind Stars</h2>
+                        <h3>Summer, 2016</h3>
+                        <p>I've always loved stars. For me, being able to see stars at night was a factor when picking out colleges. Inspired by the text of <i>The Peace of Wild Things</i> by Wendell Berry I wanted to make a peace of my own that celebrated the night time. Starting with the stippled image I inverted the colors to produce the final image. This very much relates to the multiple inversion of an image required by the screen printing process, as well as positive and negative sculpts and casts.</p>
+                        <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/other/day_blind_stars_1.jpg"/> <img src="https://raw.githubusercontent.com/high-tech-hobo/portfolio/master/pictures/other/day_blind_stars_2.jpg"/>
+                </div>
+
+        
+        </div>
+                
+
+    </body>
+</html>
